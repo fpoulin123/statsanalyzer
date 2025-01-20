@@ -22,7 +22,7 @@ public class Analyzer {
 		
 		Statement stmt = cnx.createStatement();
 		
-		ResultSet resultSet = stmt.executeQuery("select*from stats_data;");
+		ResultSet resultSet = stmt.executeQuery("select*from data;");
 		cnx.close();
 		while(resultSet.next()) {
 			Data data = new Data();

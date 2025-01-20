@@ -20,7 +20,7 @@ public class Start {
 		
 		//dates.forEach(date-> System.out.println(date));
 		
-		for(int count = 1; count<=49; count++) {
+		for(int count = 1; count<=50; count++) {
 			analyzer.getPresence(count, dates, datas);
 		}
 		
